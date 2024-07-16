@@ -1,0 +1,36 @@
+{
+    "main-images": [
+        {
+            "id": 1,
+            "Link": "./images/main-img1.jpg",
+            "title": "Img 1"
+        },
+        {
+            "id": 2,
+            "Link": "./images/main-img2.jpg",
+            "title": "Img 2"
+        },
+        {
+            "id": 3,
+            "Link": "./images/main-img3.jpg",
+            "title": "Img 3"
+        }
+    ],
+    "box-images": [
+        {
+            "id": 1,
+            "Link": "./images/box-img1.jpg",
+            "title": "MEN"
+        },
+        {
+            "id": 2,
+            "Link": "./images/box-img2.jpg",
+            "title": "WOMEN"
+        },
+        {
+            "id": 3,
+            "Link": "./images/shoes2.jpg",
+            "title": "SHOES"
+        }
+    ]
+}

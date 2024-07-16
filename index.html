@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHION Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" id="Navbar">
+        <div class="container-fluid">
+            <div class="custom-navbar">
+                <div class="title-container">
+                    <h5 class="title1">~the~</h5>
+                    <a class="navbar-brand title2" href="./index.html">FASHION</a>
+                    <h5 class="title3">STORE</h5>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-theme="white">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html"
+                            >HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./MAN.html">MEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./WOMEN.html">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./FOOTWEAR.html">FOOTWEAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cart.html" >CART</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Login.html" >LOGOUT</a>
+                    </li>
+            
+                </ul>
+                <form class="search-form " role="search">
+                    <input class="search-input  " type="search" placeholder="Search" aria-label="Search">
+                    <button class="search-button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" id="main-container">
+            <div class="carousel-item active">
+                <img src="./images/main-img1.jpg" class="d-block w-100" alt="First Image"  id="main-image"/>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <button  onclick="prev()">
+                <i class="fa fa-solid fa-chevron-left "></i>
+            </button>
+
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <button  onclick="next()">
+                <i class="fa fa-solid fa-chevron-right " ></i>
+            </button>
+        </a>
+    </div>
+
+    <table class="table">
+        <tr >
+            <td class="col-lg-3 col-md-4 col-sm-6">
+                <div class="box" style="background-image: url('image1.jpg');">
+                    <img src="" class="img-fluid" alt="Image 1" id="manImg" >
+                    <div class="box-content">
+                        <p id="manTitle" style="margin-left: 0.8em;"></p>
+                        <a href="/MAN.html" class="box-button">View</a>
+                    </div>
+                </div>
+            </td>
+            <td class="col-lg-3 col-md-4 col-sm-6">
+                <div class="box" style="background-image: url('image2.jpg');">
+                    <img src="" class="img-fluid" alt="Image 2" id="womenImg" >
+                    <div class="box-content">
+                        <p id="womenTitle"></p>
+                        <a href=".//WOMEN.html" class="box-button">View</a>
+                    </div>
+                </div>
+            </td>
+            <td class="col-lg-3 col-md-4 col-sm-6">
+                <div class="box" style="background-image: url('image3.jpg');">
+                    <img src="" class="img-fluid" alt="Image 3" id="shoesImg">
+                    <div class="box-content">
+                        <p id="shoesTitle">SHOES</p>
+                        <a href="./FOOTWEAR.html" class="box-button">View</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+        <script src="./index.js"></script>
+        <script src="./cart.js"></script>
+</body>
+
+</html>
